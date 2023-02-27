@@ -1,0 +1,123 @@
+ #border 
+    {
+        border: 7px solid #8171b7;
+    }
+
+#border-top
+    {
+        border-top: 7px solid #a880cd;
+    }
+
+#border-right
+    {
+        border-right: 7px solid #9a80cd;
+    }
+#border-bottom
+    {
+        border-bottom: 7px solid #121a6e;
+    }
+
+#border-left
+    {
+        border-left: 7px solid #853ce4;
+    }
+
+#border-radius
+    {
+        border:#46126e 7px solid;
+        border-radius: 10px 100px / 120px;
+        
+    }
+
+#background-image
+    {
+        font-size: 1;
+        color: red;
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+        background-image: url("/Construccion-de-software-/web/imagenesGit/smiley-face-history-0.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+#color
+    {
+        color: #3c69e4;
+    }
+  
+#font
+    {
+     font: italic 1.2em "Fira Sans", serif;
+    }
+
+#font-family
+    {
+        font-family: "Gill Sans", sans-serif;  }
+
+#font-style
+    {
+        font-style: oblique;
+    }
+
+#font-weight
+    {
+        font-weight: bolder;
+    }
+#width
+    {
+        background-color: #423ce4;
+        color: #ffffff;
+        width: 150px;   
+    }
+#height
+    {
+        background-color: #80cdad;
+        color: #ffffff;
+        height: 150px;
+    }
+#list-style
+    {
+        list-style: "\1F4A9";
+
+    }
+#margin
+    {
+
+        margin: 40px;
+    }
+#padding
+    {
+        padding: 70px;
+    }
+#overflow
+    {
+        height: 150px;
+        width: 100px;
+        margin: 10px;
+        overflow: scroll;
+    }
+#display
+    {
+        display: inline-flex;
+    }   
+#display1
+    {
+       background-color: #126e60;
+       color: white;
+    }
+#display2
+    {
+        background-color: #9e3ce4;
+        color: white;
+    }
+#position
+    {
+        position: relative;
+        top: 50px; left: 80px;
+    }
+#filter
+    {
+        filter: blur(1px);
+    }
