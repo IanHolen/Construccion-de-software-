@@ -1,0 +1,21 @@
+.grid-container
+{
+    padding: 10px;
+    height: 100vh; 
+    background-color: #78a8ec;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-item
+{
+    background-color: #cbcff3;
+    padding: 10px;
+}   
+
+.grid-item:nth-child(even)
+{
+    background-color: #dae8bc;
+}
