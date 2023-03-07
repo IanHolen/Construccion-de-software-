@@ -8,14 +8,14 @@ public class Score : MonoBehaviour
 {
     [SerializeField] TMP_Text tmpObj;
     [SerializeField] int maxScore;
-    [SerializeField] CreateBalls creator;
+    [SerializeField] Createball creator;
     int score;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        creator = GetComponent<CreateBalls>();
+        creator = GetComponent<Createball>();
         score = 0;        
     }
 
@@ -33,7 +33,7 @@ public class Score : MonoBehaviour
 
     void Finish()
     {
-        creator.StopBalls();
+        creator.Stop();
         tmpObj.text = "Game Over";
     }
 }
