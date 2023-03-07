@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball_in : MonoBehaviour
+public class Ballin : MonoBehaviour
 {
     [SerializeField] Score scoreObj;
     // Start is called before the first frame update
