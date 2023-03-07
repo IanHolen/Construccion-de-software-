@@ -24,9 +24,6 @@ public class Createball : MonoBehaviour
     {
         Vector3 pos = new Vector3(Random.Range(-10.0f, 10.0f), 6, 0);
         GameObject obj= Instantiate(ball, pos, Quaternion.identity);
-        Destroy(obj,5);
-
-
 
     }
 }
