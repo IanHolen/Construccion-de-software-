@@ -1,2 +1,6 @@
 .DS_Store
 .vscode
+web/back /node_project/hello_server/node_modules/accepts/index.js
+node_modules
+package-lock.json
+
